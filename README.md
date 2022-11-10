@@ -107,7 +107,7 @@ gradle clean test
 >
 > <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
 
-<a target="_blank" href="https://jenkins.autotests.cloud/job/C13-imbaReaver-diploma-ui/">**Сборка в Jenkins**</a>
+<a target="_blank" href="https://jenkins.autotests.cloud/job/C13-imbaReaver-diploma-api/">**Сборка в Jenkins**</a>
 
 <p align="center">
   <img src="images/screenshots/Jenkins2.png" width="800">
