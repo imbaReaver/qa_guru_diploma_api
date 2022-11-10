@@ -39,8 +39,8 @@
 <img width="6%" title="GitHub" src="images/logo/GitHub.svg">
 <img width="6%" title="Jenkins" src="images/logo/Jenkins.svg">
 <img width="6%" title="Telegram" src="images/logo/Telegram.svg">
-<img width="6%" title="Rest-Assured" src="images/logo/rest_assured.svg">
-<img width="6%" title="Lombok" src="images/logo/lombok.svg">
+<img width="6%" title="Rest-Assured" src="images/logo/Rest_Assured.svg">
+<img width="6%" title="Lombok" src="images/logo/Lombok.svg">
 
 </p>
 
