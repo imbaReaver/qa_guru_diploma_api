@@ -4,7 +4,6 @@ import org.aeonbits.owner.Config;
 
 @Config.Sources({"classpath:config/${host}.properties"})
 public interface ProjectConfig extends Config {
-
     @DefaultValue("chrome")
     String browser();
 
@@ -24,8 +23,4 @@ public interface ProjectConfig extends Config {
     String webUrl();
 
     String apiUrl();
-
-    String userLogin();
-
-    String userPassword();
 }

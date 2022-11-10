@@ -27,7 +27,6 @@ import static specs.RegistrationSpec.registrationResponseSpec;
 
 @DisplayName("API tests")
 public class ReqresInTests {
-
     @BeforeAll
     static void beforeAll() {
         RestAssured.baseURI = Project.config.apiUrl();
