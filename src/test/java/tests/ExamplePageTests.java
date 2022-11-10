@@ -12,6 +12,7 @@ import static helpers.CustomApiListener.withCustomTemplates;
 import static io.qameta.allure.Allure.step;
 import static io.restassured.RestAssured.given;
 
+@DisplayName("API and UI tests")
 public class ExamplePageTests extends TestBase {
     @BeforeAll
     static void beforeAll() {

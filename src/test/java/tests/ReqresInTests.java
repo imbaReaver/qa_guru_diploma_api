@@ -24,6 +24,7 @@ import static org.hamcrest.Matchers.*;
 import static specs.RegistrationSpec.registrationRequestSpec;
 import static specs.RegistrationSpec.registrationResponseSpec;
 
+@DisplayName("API tests")
 public class ReqresInTests {
 
     @BeforeAll
