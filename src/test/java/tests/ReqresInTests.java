@@ -1,5 +1,6 @@
 package tests;
 
+import config.Project;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
@@ -29,7 +30,7 @@ public class ReqresInTests {
 
     @BeforeAll
     static void beforeAll() {
-        RestAssured.baseURI = "https://reqres.in";
+        RestAssured.baseURI = Project.config.apiUrl();
     }
 
     @Test

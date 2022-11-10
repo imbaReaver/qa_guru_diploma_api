@@ -1,5 +1,7 @@
 package tests;
 
+import com.codeborne.selenide.Configuration;
+import config.Project;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
@@ -15,8 +17,9 @@ import static io.restassured.RestAssured.given;
 @DisplayName("API and UI tests")
 public class ExamplePageTests extends TestBase {
     @BeforeAll
-    static void beforeAll() {
-        RestAssured.baseURI = "https://reqres.in";
+    static void configureBaseUrl() {
+        RestAssured.baseURI = Project.config.apiUrl();
+        Configuration.baseUrl = Project.config.webUrl();
     }
 
     @Test

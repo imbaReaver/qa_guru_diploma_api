@@ -2,12 +2,11 @@ package pages;
 
 import com.codeborne.selenide.Condition;
 
-import static com.codeborne.selenide.Selenide.$$;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.*;
 
 public class ExamplePage {
     public ExamplePage openPage() {
-        open("https://j17lt.csb.app/");
+        open();
         return this;
     }
 
